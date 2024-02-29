@@ -15,10 +15,18 @@
 
 <body>
     <!-- header fixed top -->
-    <header class="bg-success">
-        <div></div>
-        <div></div>
-        <div></div>
+    <header class="bg-light d-flex justify-content-between align-items-center gap-3 p-3">
+        <div class="logo">
+            <img src="./img/logo.svg" alt="logo boolean">
+        </div>
+        <div class="flex-grow-1">
+            <form class="d-flex" role="search">
+                <input class="form-control me-2 " type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+            </form>
+        </div>
+        <div class="icons">
+            altro
+        </div>
     </header>
     <!-- general container -->
     <div class="wrapper d-flex db-debug-1">
@@ -34,7 +42,7 @@
             </div>
             <!-- dashboard with cards -->
             <div class="dashboard container">
-                <div class="row gy-4">
+                <div class="row">
                     <!-- table -->
                     <div class="col-12 col-lg-8">
                         <div class="card">

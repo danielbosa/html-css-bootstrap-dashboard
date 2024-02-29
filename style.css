@@ -10,6 +10,9 @@ img{
     width: 100%;
 }
 
+/*******************/
+/* HEADER */
+
 header{
     position: fixed;
     top: 0;
@@ -18,6 +21,17 @@ header{
     height: 50px;
 }
 
+header .logo,
+header .icons{
+    width: 150px;
+}
+
+header .form-control{
+    background-color: var(--bs-gray-300);
+}
+
+/*******************/
+/* WRAPPER */
 .wrapper{
     height: 100vh;
     padding-top: 50px;
