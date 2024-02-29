@@ -6,10 +6,6 @@
     border: 2px solid red;
 }
 
-img{
-    width: 100%;
-}
-
 /*******************/
 /* HEADER */
 
@@ -23,11 +19,24 @@ header{
 
 header .logo,
 header .icons{
-    width: 150px;
+    width: 50px;
 }
 
 header .form-control{
     background-color: var(--bs-gray-300);
+}
+
+header .icons a:not(.icons a:last-of-type),
+header .large-logo{
+    display: none;
+}
+
+.icons a i{
+    color: var(--bs-gray-800);
+}
+
+.icons a:last-of-type i{
+    color: var(--bs-orange);
 }
 
 /*******************/
@@ -49,4 +58,24 @@ main{
 
 .card{
     margin-top: 1.5rem;
+}
+
+
+/*|||||||||||||*/
+/* MEDIA QUERY */
+
+@media screen and (min-width: 992px) {
+    header .logo,
+    header .icons{
+    width: 150px;
+    }
+
+    header .small-logo{
+        display: none;
+    }
+
+    header .icons a:not(.icons a:last-of-type),
+    header .large-logo{
+        display: inline-block;
+    }
 }
