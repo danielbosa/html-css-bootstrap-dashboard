@@ -69,12 +69,26 @@ main{
 /*******************/
 /* table */
 
+table thead th:nth-of-type(2),
+table tbody tr td:nth-of-type(1),
+table thead th:nth-of-type(3),
+table tbody tr td:nth-of-type(2)
+{
+    display: none;
+}
+
+/* table tr th:nth-of-type(3),
+table tr td:nth-of-type(3),
+table tbody tr td:nth-of-type(2){
+    display: none;
+} */
+
 /* width of th */
 .db-w-60{
     max-width: 60%;
 }
 
-.db-w-data{
+.db-w-date{
     width: 100px;
 }
 
@@ -82,11 +96,11 @@ main{
     width: 50px;
 }
 
-.db-w-stato{
+.db-w-state{
     width: 50px;
 }
 
-.db-w-azioni{
+.db-w-actions{
     width: 100px;
 }
 
@@ -137,6 +151,16 @@ table td .badge.text-bg-warning{
 /*|||||||||||||*/
 /* MEDIA QUERY */
 
+@media screen and (min-width: 768px) {
+    table thead th:nth-of-type(2),
+    table tbody tr td:nth-of-type(1),
+    table thead th:nth-of-type(3),
+    table tbody tr td:nth-of-type(2)
+    {
+        display:table-cell;
+    }
+}
+
 @media screen and (min-width: 992px) {
     header .logo,
     header .icons{
@@ -151,4 +175,5 @@ table td .badge.text-bg-warning{
     header .large-logo{
         display: inline-block;
     }
+
 }
