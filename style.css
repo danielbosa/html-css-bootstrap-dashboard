@@ -26,10 +26,6 @@ header .icons{
     width: 50px;
 }
 
-/* header .form-control{
-    background-color: var(--bs-gray-300);
-} */
-
 header .input-group-text,
 header .form-control{
     background-color: var(--bs-gray-300);
@@ -52,11 +48,6 @@ header .large-logo{
 .dropdown:hover>.dropdown-menu {
     display: block;
   }
-  
-
-/* header .dropdown:hover>.dropdown-menu {
-    display: block;
-  } */
 
 /*******************/
 /* WRAPPER */
@@ -114,9 +105,14 @@ main{
 
 /*******************/
 /* dashboard with cards */
-.card,
-.accordion-button{
+.card
+{
     margin-top: 1.5rem;
+}
+
+.card,
+.accordion-button
+{
     font-size: 0.7rem;
 }
 
