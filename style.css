@@ -26,6 +26,11 @@ header .icons{
     width: 50px;
 }
 
+/* header .form-control{
+    background-color: var(--bs-gray-300);
+} */
+
+header .input-group-text,
 header .form-control{
     background-color: var(--bs-gray-300);
 }
@@ -39,9 +44,19 @@ header .large-logo{
     color: var(--bs-gray-800);
 }
 
-.icons a:last-of-type i{
+.icons .dropdown>a{
     color: var(--bs-orange);
+    text-decoration: none;
 }
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+
+/* header .dropdown:hover>.dropdown-menu {
+    display: block;
+  } */
 
 /*******************/
 /* WRAPPER */
@@ -102,7 +117,7 @@ main{
 .card,
 .accordion-button{
     margin-top: 1.5rem;
-    font-size: 12px;
+    font-size: 0.7rem;
 }
 
 .accordion{
@@ -112,12 +127,12 @@ main{
 /*******************/
 /* table */
 
-table thead th:nth-of-type(2),
+/* table thead th:nth-of-type(2),
 table tbody tr td:nth-of-type(1),
 table thead th:nth-of-type(3),
 table tbody tr td:nth-of-type(2){
     display: none;
-}
+} */
 
 /* table tr th:nth-of-type(3),
 table tr td:nth-of-type(3),
@@ -175,13 +190,19 @@ main table tbody td{
 
 /* actions column */
 
-.actions a{
+/* .actions a{
     width: 1.5rem;
     height: 1.5rem;
     border: 1px solid var(--bs-gray-600);
     color: var(--bs-gray-600);
     border-radius: 5px;
     display: inline-block;
+} */
+
+.actions .btn{
+    font-size: 0.7rem;
+    --bs-btn-padding-x: 0.5rem;
+    --bs-btn-padding-y: 0.3rem;
 }
 
 /* color "process" badge: edit bs rule */
@@ -195,14 +216,14 @@ table td .badge.text-bg-warning{
 
 @media screen and (min-width: 768px) {
     
-    /* table */
+    /* table
     table thead th:nth-of-type(2),
     table tbody tr td:nth-of-type(1),
     table thead th:nth-of-type(3),
     table tbody tr td:nth-of-type(2)
     {
-        display:table-cell;
-    }
+        display: table-cell;
+    } */
 }
 
 @media screen and (min-width: 992px) {
