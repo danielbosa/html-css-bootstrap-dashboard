@@ -121,6 +121,21 @@ main{
     font-size: 0.8rem;
 }
 
+.control-bar .badge.rounded-pill{
+    font-size: 0.7rem;
+    --bs-badge-font-weight: 400;
+}
+
+.db-w-30{
+    width: 30%;
+}
+
+/* offcanvas */
+.control-bar .offcanvas{
+    --bs-offcanvas-width: 50%;
+}
+
+
 /*******************/
 /* dashboard with cards */
 .card{
