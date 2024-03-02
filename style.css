@@ -47,7 +47,13 @@ header .large-logo{
 
 .dropdown:hover>.dropdown-menu {
     display: block;
-  }
+}
+
+.dropdown-menu{
+    top: 20px;
+    right: 5px;
+    z-index: 50000;
+}
 
 /*******************/
 /* WRAPPER */
@@ -75,6 +81,11 @@ header .large-logo{
 
 .sidebar li{
     padding-top: 5px;
+    transition: 0.1s linear;
+}
+
+.sidebar li:hover{
+    background-color: rgba(190, 186, 186, 0.527);
 }
 
 .sidebar i{
@@ -91,6 +102,7 @@ header .large-logo{
     display: none;
 }
 
+
 /*******************/
 /* MAIN */
 
@@ -100,14 +112,20 @@ main{
 }
 
 /*******************/
-/* control bar */
+/* control bar blue */
+.control-bar span.badge{
+    background-color: #165BBA;
+}
 
+.control-bar .fa-angles-right{
+    font-size: 0.8rem;
+}
 
 /*******************/
 /* dashboard with cards */
-.card
-{
+.card{
     margin-top: 1.5rem;
+    position: static;
 }
 
 .card,

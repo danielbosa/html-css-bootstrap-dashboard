@@ -44,12 +44,12 @@
             <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
 
             <div class="dropdown">
-                <a class="fa-solid fa-bell" href="#" role="button" data-bs-hover="dropdown" aria-expanded="false"></a>
+                <a class="fa-solid fa-bell" href="#" role="button" data-bs-hover="dropdown-start" aria-expanded="false"></a>
               
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <ul class="dropdown-menu z-2">
+                  <li><a class="dropdown-item" href="#">Profilo</a></li>
+                  <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                  <li><a class="dropdown-item" href="#">Logout</a></li>
                 </ul>
             </div>
         </div>
@@ -60,7 +60,7 @@
         <div class="sidebar d-flex flex-column justify-content-between align-items-center py-3 px-3">
             <div class="sidebar-top">
                 <ul class="text-white">
-                    <li>
+                    <li class="">
                         <a href="#">
                             <i class="fa-solid fa-house"></i>
                             <span> Home</span>
@@ -89,9 +89,29 @@
         </div>
         <!-- main dashboard -->
         <main class="bg-light pb-3">
-            <!-- blu control bar -->
-            <div class="recap text-bg-primary">
-                div blu
+            <!--control bar blue -->
+            <div class="control-bar text-bg-primary">
+                <div class="container-fluid">
+                    <div class="d-flex align-items-center gap-3 py-3">
+                        <div class="fs-6">Nuovo Studente</div>
+                        <button type="button" class="btn btn-outline-light">+</button>
+                    </div>
+                    <div class="">
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="fs-3">Boolean</div>
+                            <span class="badge rounded-pill">Piano blaze</span>
+                        </div>
+                        <div class="d-flex align-items-center gap-3">
+                            <span class="badge rounded-pill">3 app</span>
+                            <span class=""><i class="fa-solid fa-angles-right"></i></span>
+                            <span class="badge rounded-pill">+</span>
+                        </div>
+                    </div>
+                    <div class="py-3">
+                        <div class="fs-6">Studenti onlin negli ultimi 30 minuti</div>
+                        <div class="fs-4">125</div>
+                    </div>
+                </div>
             </div>
             <!-- dashboard with cards -->
             <div class="dashboard container">
