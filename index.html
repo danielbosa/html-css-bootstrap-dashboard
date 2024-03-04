@@ -107,40 +107,81 @@
                             <div class="offcanvas-body">
                                 <div class="mb-3 d-flex justify-content-between gap-3">
                                     <div class="w-50">
-                                        <label for="basic-url" class="form-label">Nome</label>
+                                        <label for="nome" class="form-label">Nome</label>
                                         <div class="input-group">
-                                        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+                                        <input type="text" class="form-control" id="nome" aria-describedby="basic-addon3 basic-addon4">
                                         </div>
                                     </div>
                                     <div class="w-50">
-                                        <label for="basic-url" class="form-label">Cognome</label>
+                                        <label for="cognome" class="form-label">Cognome</label>
                                         <div class="input-group">
-                                        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+                                        <input type="text" class="form-control" id="cognome" aria-describedby="basic-addon3 basic-addon4">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="mb-3 d-flex justify-content-between gap-3">
                                     <div class="w-50">
-                                        <label for="basic-url" class="form-label">Email</label>
+                                        <label for="email-address" class="form-label">Email</label>
                                         <div class="input-group">                                            <span class="input-group-text" id="basic-addon1">@</span>
-                                        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+                                        <input type="text" class="form-control" id="email-address" aria-describedby="basic-addon3 basic-addon4">
                                         </div>
                                     </div>
                                     <div class="w-50">
-                                        <label for="basic-url" class="form-label">Password</label>
+                                        <label for="password" class="form-label">Password</label>
                                         <div class="input-group">
-                                        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+                                        <input type="text" class="form-control" id="password" aria-describedby="basic-addon3 basic-addon4">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="w-100">
-                                    <label for="basic-url" class="form-label">Indirizzo</label>
+                                <div class="mb-3 w-100">
+                                    <label for="address" class="form-label">Indirizzo</label>
                                     <div class="input-group">
-                                    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+                                        <input type="text" class="form-control" id="address" aria-describedby="basic-addon3 basic-addon4">
                                     </div>
                                 </div>
+                                <div class="mb-3 d-flex justify-content-between gap-3">
+                                    <div class="w-50">
+                                        <label for="city" class="form-label">Città</label>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" id="city" aria-describedby="basic-addon3 basic-addon4">
+                                        </div>
+                                    </div>
+                                    <div class="db-w-30">
+                                        <label for="state" class="form-label">Stato</label>
+                                        <div class="input-group">
+                                            <select class="form-select" id="state">
+                                                <option selected>Scegli...</option>
+                                                <option value="1">Italia</option>
+                                                <option value="2">Francia</option>
+                                                <option value="3">Inghilterra</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="db-w-20">
+                                        <label for="cap" class="form-label">Cap</label>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" id="cap" aria-describedby="basic-addon3 basic-addon4">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="w-100 mb-3">
+                                    <label for="student-photo" class="form-label">Foto</label>
+                                    <div class="input-group">
+                                        <input type="file" class="form-control" id="student-photo">
+                                    </div>
+                                </div>
+                                <div class="form-check mt-4">
+                                    <input class="form-check-input" type="checkbox" value="" id="confirm-student">
+                                    <label class="form-check-label" for="confirm-student">
+                                      Seleziona per proseguire
+                                    </label>
+                                </div>
+                                <div class="mt-3 d-flex gap-2">
+                                    <button type="button" class="btn btn-primary">Salva</button>
+                                    <button type="button" class="btn btn-warning">Svuota</button>
+                                </div>
                             </div>
-                          </div>
+                        </div>
                     </div>
                     <div class="pb-3 db-w-30">
                         <div class="d-flex align-items-center gap-3 order-1">

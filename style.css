@@ -130,9 +130,14 @@ main{
     width: 30%;
 }
 
+.db-w-20{
+    width: 20%;
+}
+
+
 /* offcanvas */
 .control-bar .offcanvas{
-    --bs-offcanvas-width: 50%;
+    --bs-offcanvas-width: 100%;
 }
 
 
@@ -279,6 +284,11 @@ table td .badge.text-bg-warning{
 
     .sidebar span{
         display: inline-block;
+    }
+
+    /* offcanvas */
+    .control-bar .offcanvas{
+        --bs-offcanvas-width: 50%;
     }
 
 }
