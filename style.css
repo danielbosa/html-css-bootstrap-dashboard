@@ -45,7 +45,7 @@ header .large-logo{
 .dropdown-menu{
     top: 20px;
     right: 5px;
-    /* z-index: 50000; */
+    z-index: 50000;
 }
 
 /*******************/
@@ -132,8 +132,16 @@ main{
 /* offcanvas */
 .control-bar .offcanvas{
     --bs-offcanvas-width: 100%;
+    /* z-index: 1000; */
 }
 
+/* .offcanvas-body{
+    z-index: 2000;
+}
+
+.offcanvas-header{
+    z-index: 2000;
+} */
 
 /*******************/
 /* dashboard with cards */
