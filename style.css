@@ -130,7 +130,7 @@ main{
 
 
 /* offcanvas */
-.control-bar .offcanvas{
+aside .offcanvas{
     --bs-offcanvas-width: 100%;
     /* z-index: 1000; */
 }
@@ -301,7 +301,7 @@ table td .badge.text-bg-warning{
     }
 
     /* offcanvas */
-    .control-bar .offcanvas{
+    aside .offcanvas{
         --bs-offcanvas-width: 50%;
     }
 
